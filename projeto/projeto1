@@ -1,0 +1,10 @@
+
+
+num = (input ("diga o numero"))
+
+if num  0:
+    resultado = math.sqrt (num)
+   
+else:
+    resultado = num ** 2
+    print ("o valor do numero negativo é: ", resultado)
