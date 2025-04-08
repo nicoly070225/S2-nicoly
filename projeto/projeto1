@@ -1,10 +1,13 @@
 
+# UMA PROFESSORA, FEZ UMA CALCULADORA DE RAIZ E POTENCIAÇÃO. OS ALUNOS IRÃO INSERIR UM VALOR QUALQUER.
+# CASO ELE SEJA POSITIVO OU IGUAL A ZERO FAREI A RAIZ QUADRADA E CASO SEJA NEGATIVO FAREI AO QUADRADO. 
 
-num = (input ("diga o numero"))
+print ("ola aluno, digite um numero caso ele seja positivo ou igual a zero farei a raiz quadrada e caso seja negativo farei ao quadrado")
+num = float (input ("diga o numero"))
 
-if num  0:
+if num >= 0:
     resultado = math.sqrt (num)
-   
+    print ("o valor do numero positivo é: %.2f" %num)
 else:
     resultado = num ** 2
     print ("o valor do numero negativo é: ", resultado)
