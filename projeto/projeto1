@@ -8,3 +8,13 @@ if num  0:
 else:
     resultado = num ** 2
     print ("o valor do numero negativo é: ", resultado)
+    print ("ola usuario, digite um numero caso ele seja ou igual a zero farei a raiz quadrada e caso seja negativo farei ao quadrado")
+num = resultado
+
+if num  0:
+   
+else:
+    resultado = num * 2
+    print o valor do numero negativo é: " resultado)
+
+
